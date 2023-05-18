@@ -15,7 +15,7 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 # Set up webhook for Telegram bot
 def set_webhook():
     bot = telegram.Bot(token=6240559565:AAE6WzrKIHlZAHwVNoNy87Q6_s5fM1Im5Zk)
-    bot.setWebhook(url=f"{https://api.telegram.org/bot<6240559565:AAE6WzrKIHlZAHwVNoNy87Q6_s5fM1Im5Zk>/}/{6240559565:AAE6WzrKIHlZAHwVNoNy87Q6_s5fM1Im5Zk}")
+    bot.setWebhook(url=f"{https://api.telegram.org/bot/}/{6240559565:AAE6WzrKIHlZAHwVNoNy87Q6_s5fM1Im5Zk}")
     
 
 # Get latest pairs launched on Uniswap and PancakeSwap within the last hour
